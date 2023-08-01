@@ -1,0 +1,27 @@
+﻿<Window x:Class="Motor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Motor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="570" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        
+        <TabControl>
+            <TabItem Header="CMD">
+                <Grid>
+                    <DockPanel>
+                        <TextBlock Text="Simple CMD" FontSize="16" Margin="10" DockPanel.Dock="Top"/>
+                        <Border x:Name="WinEmb" Margin="10"></Border>
+                    </DockPanel>
+                    
+                </Grid>
+                
+            </TabItem>
+        </TabControl>
+        
+       
+    </Grid>
+</Window>
